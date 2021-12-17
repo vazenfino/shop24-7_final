@@ -1,7 +1,7 @@
 
 
 const mongoose = require('mongoose');
-const URI ="mongodb+srv://root:root@cluster0.fni51.mongodb.net/shop24x7?retryWrites=true&w=majority";
+const URI ="";
 
 const connectDB = async () => {
   await mongoose.connect(URI, {
